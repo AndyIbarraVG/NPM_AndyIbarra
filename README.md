@@ -11,6 +11,8 @@ $npm install npm_andyibarra
 ```
 Como se utiliza este modulo
 ```js
-const npm_andyibarra = require('npm_andyibarra')
+const ObtenerPokemon = require('npm_andyibarra');
 
-ObtienePokemon();
+const { nombre, imagen } = ObtenerPokemon();
+
+console.log(`Nombre: ${nombre}, Imagen: ${imagen}`);
