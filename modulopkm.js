@@ -19,12 +19,8 @@ let pokemons = [
     { nombre: "Pidgeot", imagen: "https://img.pokemondb.net/sprites/x-y/normal/pidgeot.png" },
 ];
 
-// Otra forma de exportar esta funcion
-module.exports = {
-    ObtienePokemon: function() {
-        return pokemons[Math.floor(Math.random() * pokemons.length)];
-    }
+function ObtienePokemon() {
+    return pokemons[Math.floor(Math.random() * pokemons.length)];
 }
-// export function ObtienePokemon() {
-//     return pokemons[Math.floor(Math.random() * pokemons.length)];
-// }
+
+module.exports = ObtienePokemon; 
