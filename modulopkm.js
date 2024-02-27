@@ -19,8 +19,6 @@ let pokemons = [
     { nombre: "Pidgeot", imagen: "https://img.pokemondb.net/sprites/x-y/normal/pidgeot.png" },
 ];
 
-function ObtienePokemon() {
+export function ObtienePokemon(){
     return pokemons[Math.floor(Math.random() * pokemons.length)];
-}
-
-export default ObtienePokemon;
+} 
