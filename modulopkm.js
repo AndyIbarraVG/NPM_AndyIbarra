@@ -23,4 +23,4 @@ function ObtienePokemon() {
     return pokemons[Math.floor(Math.random() * pokemons.length)];
 }
 
-module.exports = ObtienePokemon; 
+export default ObtienePokemon;

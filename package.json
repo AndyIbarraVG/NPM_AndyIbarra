@@ -1,6 +1,6 @@
 {
   "name": "npm_andyibarra",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Prueba de Modulo NPM",
   "main": "modulopkm.js",
   "scripts": {
